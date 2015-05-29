@@ -4,9 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hello, my name is Bárbara Barbosa
-
-<div style="text-align:center"><img src="/images/eu.jpg" width="200" height="320"></div>
+Hello, my name is Bárbara Barbosa,
 
 I am a web developer at [bankFacil](https://www.bankfacil.com.br/devs).
 
@@ -14,3 +12,4 @@ I am also a  student at [Master of Science Graduate Program in Information Syste
 
 I divide my time between learning some ruby and AI magics, reading a lot, cooking and sometimes playing videogames
 
+<div style="text-align:center"><img src="/images/eu.jpg" width="200" height="320"></div>
