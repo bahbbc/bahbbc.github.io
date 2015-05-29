@@ -11,4 +11,4 @@ I am also a  student at [Master of Science Graduate Program in Information Syste
 
 I divide my time between learning some ruby and AI magics, reading a lot, cooking and sometimes playing videogames
 
-![Me](/images/eu.jpg =100x20)
+<img src="/images/eu.jpg" width="200" height="150">
