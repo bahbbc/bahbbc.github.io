@@ -9,6 +9,6 @@ In here you will find the things that I've learned and wanted to show or just th
 
 I will research about a topic and always put the reference material at the end. This post is also a guideline to myself :smile:
 
-![Image of Jake writing]({{ site.baseurl }}images/write_time.png)
+![Image of Jake writing](/images/write_time.png)
 
 Let's see what I can do :grin:
