@@ -6,10 +6,10 @@
 name: Little lines of code
 
 # Short bio or description (displayed in the header)
-description: My adventures coding while I am learning!
+description: My adventures coding in this world wide web!
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://avatars2.githubusercontent.com/u/763533
+# avatar: https://avatars2.githubusercontent.com/u/763533
 
 #
 # Flags below are optional
@@ -23,7 +23,7 @@ footer-links:
   flickr:
   github: bahbbc
   instagram:
-  linkedin: https://br.linkedin.com/pub/barbara-barbosa-claudino-da-silva/8b/412/987
+  linkedin: /in/bahbbc
   pinterest:
   rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
   twitter: bahbbc
