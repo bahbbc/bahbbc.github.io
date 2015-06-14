@@ -61,5 +61,7 @@ So if I was able to pass some of my LaTeX love to you and you're curious about i
  - (Introdução ao LaTeX -- pt-br)[http://www.mat.ufmg.br/~regi/topicos/intlat.pdf]
   - You can also learn a lot using Overleaf as an editor and chacking out the code that it shows.
 
-  Now start making your beautiful files :star2:
+  Now start making your beautiful files
 ![Amazing minions](/images/minions_happy.gif)
+
+Ps. Besides Steam Summer sale, I made it! :star2:
