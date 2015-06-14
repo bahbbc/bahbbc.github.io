@@ -6,11 +6,11 @@ title: A little about LaTeX
 Since I started working with research, the teachears loved to talk about LaTeX and how it can help us save time writting our papers.
 How it's beautiful and how you can do lots of stuff easily that you can't with Microsoft Word. (Let's not talk about open office, it wouldn't be a fair fight)
 
-So, if you don't have any ideia what LaTeX is, you already have a clue. It's something to write texts. Take a look on what they say on (latex-projext)[http://www.latex-project.org/] "LaTeX is a high-quality typesetting system; it includes features designed for the production of technical and scientific documentation that runs on top of Donald E. Knuth's TeX typesetting system"
+So, if you don't have any ideia what *LaTeX* is, you already have a clue. It's something to write texts. Take a look on what they say on (latex-projext)[http://www.latex-project.org/] "LaTeX is a high-quality typesetting system; it includes features designed for the production of technical and scientific documentation that runs on top of Donald E. Knuth's TeX typesetting system"
 
 Different from Libre Office that is a WYSWYG (What You See is What You Get), with LaTeX you will write your text and formating configuration in one file, and you don't have to worry with the design of the document (unless you want to create your own, but let's talk about it later) and just worry about what you're going to talk about! The output format normally is a pdf, what is cool because pdf works everywhere. This code below shows a presentation, it's really easy to understand.
 
-```
+```tex
 \documentclass{beamer}
 \title[My title]{SOLID}
 \author{Bárbara Barbosa - @bahbbc}
@@ -36,14 +36,16 @@ Some other lovely things you can achieve using LaTex:
 
 This is really good when you want to submit a paper to a conference that has the LaTeX format. You just have to worry about your text and how you will make you 6-months work fit in 10 pages. :laughing: You won't have to worry about adjusting your file into theirs rules.
 
-[Typing Crazy](/images/type_crazy.gif)
-> When after formating everything you have 11 pages, and the conference only accept max. 10 pages papers :fearful:
+---
+<div style="text-align:center"><img src="/images/type_crazy.gif" width="200" height="320"></div>
+When after formating everything you have 11 pages, and the conference only accept max. 10 pages papers :fearful:
+---
 
 LaTex is a free software and it works on Linux, Mac OS and Windows :stuck_out_tongue:. When I used LaTeX offline I liked the MiKTeX distribution (http://miktex.org/). It comes with a graphic interface called TeXworks. This only works for windows (I hadn't met the light yet at that time)
 
-![Ruindows](/images/ruindows.gif)
+<div style="text-align:center"><img src="/images/ruindows.gif" width="200" height="320"></div>
 
-But today I like to use (Overleaf)[https://www.overleaf.com/].
+But today I like to use [Overleaf](https://www.overleaf.com/).
 
 ![Image Overleaf Dash](/images/dashboard.png)
 
@@ -57,11 +59,12 @@ Also you can work together with your co-workers! Is not as good as google docs i
 
 So if I was able to pass some of my LaTeX love to you and you're curious about it check those links:
 
- - (The Not So Short Introduction To LaTeX)[http://linorg.usp.br/CTAN/info/lshort/english/lshort.pdf]
- - (Introdução ao LaTeX -- pt-br)[http://www.mat.ufmg.br/~regi/topicos/intlat.pdf]
+ - [The Not So Short Introduction To LaTeX](http://linorg.usp.br/CTAN/info/lshort/english/lshort.pdf)
+ - [Introdução ao LaTeX -- pt-br](http://www.mat.ufmg.br/~regi/topicos/intlat.pdf)
   - You can also learn a lot using Overleaf as an editor and chacking out the code that it shows.
 
-  Now start making your beautiful files
+  Now just start making your beautiful files.
+
 ![Amazing minions](/images/minions_happy.gif)
 
 Ps. Besides Steam Summer sale, I made it! :star2:
