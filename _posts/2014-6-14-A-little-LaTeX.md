@@ -33,17 +33,17 @@ Some other lovely things you can achieve using LaTex:
  - Formulas (oh, the formulas!) will never move, are easy to make and will always be like inside a Calculus book;
  - Your summary will always be right;
  - Text format changes can be made for the whole document with just a few commands;
- - Your sections, figures, tables, citations... will be automaticaly numbered.
+ - Your sections, figures, tables, citations... will be automatically numbered.
 
 This is really good when you want to submit a paper to a conference that has the LaTeX format. You just have to worry about your text and how you will make you 6-month work fit in 10 pages. :laughing: You won't have to worry about adjusting your file into theirs rules.
 
 <div style="text-align:center"><img src="/images/type_crazy.gif" width="300" height="170"></div>
 
-When after formating everything you have 11 pages, and the conference only accept max. 10 pages papers :fearful:
+Imagine after formating everything you have 11 pages, and the conference only accept max. 10 pages papers :fearful:
 
 ---
 
-LaTex is a free software and it works on Linux, Mac OS and Windows :stuck_out_tongue:. When I used LaTeX offline I liked the [MiKTeX distribution](http://miktex.org/). It comes with a graphic interface called TeXworks. This only works for windows (I hadn't met the light yet at that time)
+LaTex is a free software and it works on Linux, Mac OS and Windows. When I used LaTeX offline I liked the [MiKTeX distribution](http://miktex.org/). It comes with a graphic interface called TeXworks. This only works for windows (I hadn't met the light yet at that time)
 
 <div style="text-align:center"><img src="/images/ruindows.gif" width="300" height="200"></div>
 
@@ -51,7 +51,7 @@ But today I like to use [Overleaf](https://www.overleaf.com/).
 
 ![Image Overleaf Dash](/images/dashboard.png)
 
-Overleaf is pretty straitforward, you make your registration and have 100MB free to make your files. You will have you dashboard and a lot of themes to work on your docs. You can also upload your own theme. The coolest thing is that the file keeps compiling while you are writing and shows the result in your right. When you write some shit you are immediately notified.
+Overleaf is pretty straitforward, you make your registration and have 100MB free to make your files. You will have your dashboard and a lot of themes to work on your docs. You can also upload your own theme. The coolest thing is that the file keeps compiling while you are writing and shows the result in your right. When you write some shit you are immediately notified.
 
 ![Image Overleaf Screen](/images/2-screens.png)
 
