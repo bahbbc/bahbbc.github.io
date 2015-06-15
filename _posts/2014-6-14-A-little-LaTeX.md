@@ -28,11 +28,11 @@ The first line says that this document class is beamer... This means that this d
 
 So, now I'll start the presentation. Every slide is a frame and I can write all my text on each. The magic inside Latex is that you can use a theme and don't worry about the design configs anymore :heart: You can also make your own theme and never worry about designing it again! It isn't beautiful? :heart:
 Some other lovely things you can achieve using LaTex:
-  - Put figures wherever you like;
-  - Formulas (oh, the formulas!) will never move, are easy to make and will always be like inside a Calculus book;
-  - Your summary will always be right;
-  - Text format changes can be made for the whole document with just a few commands;
-  - Your sections, figures, tables, citations... will be automaticaly numbered.
+ - Put figures wherever you like;
+ - Formulas (oh, the formulas!) will never move, are easy to make and will always be like inside a Calculus book;
+ - Your summary will always be right;
+ - Text format changes can be made for the whole document with just a few commands;
+ - Your sections, figures, tables, citations... will be automaticaly numbered.
 
 This is really good when you want to submit a paper to a conference that has the LaTeX format. You just have to worry about your text and how you will make you 6-months work fit in 10 pages. :laughing: You won't have to worry about adjusting your file into theirs rules.
 
@@ -42,7 +42,7 @@ When after formating everything you have 11 pages, and the conference only accep
 
 ---
 
-LaTex is a free software and it works on Linux, Mac OS and Windows :stuck_out_tongue:. When I used LaTeX offline I liked the MiKTeX distribution (http://miktex.org/). It comes with a graphic interface called TeXworks. This only works for windows (I hadn't met the light yet at that time)
+LaTex is a free software and it works on Linux, Mac OS and Windows :stuck_out_tongue:. When I used LaTeX offline I liked the [MiKTeX distribution](http://miktex.org/). It comes with a graphic interface called TeXworks. This only works for windows (I hadn't met the light yet at that time)
 
 <div style="text-align:center"><img src="/images/ruindows.gif" width="300" height="200"></div>
 
