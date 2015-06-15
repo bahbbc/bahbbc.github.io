@@ -56,17 +56,16 @@ Overleaf it's pretty straitforward, you make your registration and have 100MB fr
 
 Also you can work together with your co-workers! Is not as good as google docs it is. The texts keeps moving and you don't know what is happening. There is no sign that other people are editing the file, but I never had a problem with it. You can also leave comments to you friend (comments in LaTeX are `%`) and he will see it right away :relaxed:
 
-![Image Overleaf Screen](/images/share.png)
+Take a look at the [SOLID presentation](http://www.slideshare.net/bankfacil/solid-ood-principles) I made using Overleaf.
 
 So if I was able to pass some of my LaTeX love to you and you're curious about it check those links:
 
  - [The Not So Short Introduction To LaTeX](http://linorg.usp.br/CTAN/info/lshort/english/lshort.pdf)
  - [Introdução ao LaTeX -- pt-br](http://www.mat.ufmg.br/~regi/topicos/intlat.pdf)
-  - You can also learn a lot using Overleaf as an editor and chacking out the code that it shows.
+ - You can also learn a lot using Overleaf as an editor and chacking out the code that it shows.
 
   Now just start making your beautiful files.
 
 <div style="text-align:center"><img src="/images/minions_happy.gif" width="500" height="270"></div>
-![Amazing minions]()
 
 Ps. Besides Steam Summer sale, I made it! :star2:
