@@ -6,7 +6,7 @@ title: A little about LaTeX
 Since I started working with research, the teachears loved to talk about LaTeX and how it can help us save time writting our papers.
 How it's beautiful and how you can do lots of stuff easily that you can't with Microsoft Word. (Let's not talk about LibreOffice, it wouldn't be a fair fight)
 
-So, if you don't have any ideia what *LaTeX* is, you already have a clue. It's something to write texts. Take a look on what they say on (latex-projext)[http://www.latex-project.org/] "LaTeX is a high-quality typesetting system; it includes features designed for the production of technical and scientific documentation that runs on top of Donald E. Knuth's TeX typesetting system"
+So, if you don't have any ideia what *LaTeX* is, you already have a clue. It's something to write texts. Take a look on what they say on (latex-project)[http://www.latex-project.org/] "LaTeX is a high-quality typesetting system; it includes features designed for the production of technical and scientific documentation that runs on top of Donald E. Knuth's TeX typesetting system"
 
 Different from LibreOffice that is a WYSWYG (What You See is What You Get), with LaTeX you will write your text and formating configuration in one file, and you don't have to worry with the design of the document (unless you want to create your own, but let's talk about it later) and just worry about what you're going to talk about! The output format normally is a pdf, what is cool because pdf works everywhere. This code below shows a presentation, it's really easy to understand.
 
@@ -35,7 +35,7 @@ Some other lovely things you can achieve using LaTex:
  - Text format changes can be made for the whole document with just a few commands;
  - Your sections, figures, tables, citations... will be automaticaly numbered.
 
-This is really good when you want to submit a paper to a conference that has the LaTeX format. You just have to worry about your text and how you will make you 6-months work fit in 10 pages. :laughing: You won't have to worry about adjusting your file into theirs rules.
+This is really good when you want to submit a paper to a conference that has the LaTeX format. You just have to worry about your text and how you will make you 6-month work fit in 10 pages. :laughing: You won't have to worry about adjusting your file into theirs rules.
 
 <div style="text-align:center"><img src="/images/type_crazy.gif" width="300" height="170"></div>
 
@@ -51,11 +51,11 @@ But today I like to use [Overleaf](https://www.overleaf.com/).
 
 ![Image Overleaf Dash](/images/dashboard.png)
 
-Overleaf it's pretty straitforward, you make your registration and have 100MB free to make your files. You will have you dashboard and a lot of themes to work on your docs. You can also upload your own theme. The coolest think is that the file keeps compiling while you are writing and shows the result in your right. When you write some shit you are immediately notified.
+Overleaf is pretty straitforward, you make your registration and have 100MB free to make your files. You will have you dashboard and a lot of themes to work on your docs. You can also upload your own theme. The coolest thing is that the file keeps compiling while you are writing and shows the result in your right. When you write some shit you are immediately notified.
 
 ![Image Overleaf Screen](/images/2-screens.png)
 
-Also you can work together with your co-workers! Is not as good as google docs it is. The texts keeps moving and you don't know what is happening. There is no sign that other people are editing the file, but I never had a problem with it. You can also leave comments to you friend (comments in LaTeX are `%`) and he will see it right away :relaxed:
+Also you can work together with your co-workers! Is not as good as google docs is. The texts keeps moving and you don't know what is happening. There is no sign that other people are editing the file, but I never had a problem with it. You can also leave comments to you friend (comments in LaTeX are `%`) and he will see it right away :relaxed:
 
 Take a look at the [SOLID presentation](http://www.slideshare.net/bankfacil/solid-ood-principles) I made using Overleaf.
 
@@ -63,7 +63,7 @@ So if I was able to pass some of my LaTeX love to you and you're curious about i
 
  - [The Not So Short Introduction To LaTeX](http://linorg.usp.br/CTAN/info/lshort/english/lshort.pdf)
  - [Introdução ao LaTeX (portuguese)](http://www.mat.ufmg.br/~regi/topicos/intlat.pdf)
- - You can also learn a lot using Overleaf as an editor and chacking out the code that it shows.
+ - You can also learn a lot using Overleaf as an editor and checking out the code that it shows.
 
   Now just start making your beautiful files.
 
