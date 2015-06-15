@@ -36,14 +36,15 @@ Some other lovely things you can achieve using LaTex:
 
 This is really good when you want to submit a paper to a conference that has the LaTeX format. You just have to worry about your text and how you will make you 6-months work fit in 10 pages. :laughing: You won't have to worry about adjusting your file into theirs rules.
 
----
-<div style="text-align:center"><img src="/images/type_crazy.gif" width="200" height="320"></div>
+<div style="text-align:center"><img src="/images/type_crazy.gif" width="300" height="170"></div>
+
 When after formating everything you have 11 pages, and the conference only accept max. 10 pages papers :fearful:
+
 ---
 
 LaTex is a free software and it works on Linux, Mac OS and Windows :stuck_out_tongue:. When I used LaTeX offline I liked the MiKTeX distribution (http://miktex.org/). It comes with a graphic interface called TeXworks. This only works for windows (I hadn't met the light yet at that time)
 
-<div style="text-align:center"><img src="/images/ruindows.gif" width="200" height="320"></div>
+<div style="text-align:center"><img src="/images/ruindows.gif" width="300" height="200"></div>
 
 But today I like to use [Overleaf](https://www.overleaf.com/).
 
@@ -65,6 +66,7 @@ So if I was able to pass some of my LaTeX love to you and you're curious about i
 
   Now just start making your beautiful files.
 
-![Amazing minions](/images/minions_happy.gif)
+<div style="text-align:center"><img src="/images/minions_happy.gif" width="500" height="270"></div>
+![Amazing minions]()
 
 Ps. Besides Steam Summer sale, I made it! :star2:
