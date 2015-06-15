@@ -3,7 +3,7 @@ layout: post
 title: A little about LaTeX
 ---
 
-Since I started working with research, the teachears loved to talk about LaTeX and how it can help us save time writting our papers.
+Since I started working with research, the teachers loved to talk about LaTeX and how it can help us save time writting our papers.
 How it's beautiful and how you can do lots of stuff easily that you can't with Microsoft Word. (Let's not talk about LibreOffice, it wouldn't be a fair fight)
 
 So, if you don't have any ideia what *LaTeX* is, you already have a clue. It's something to write texts. Take a look on what they say on [latex-project](http://www.latex-project.org/) "LaTeX is a high-quality typesetting system; it includes features designed for the production of technical and scientific documentation that runs on top of Donald E. Knuth's TeX typesetting system"
