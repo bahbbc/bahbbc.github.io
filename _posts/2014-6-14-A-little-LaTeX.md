@@ -62,7 +62,7 @@ Take a look at the [SOLID presentation](http://www.slideshare.net/bankfacil/soli
 So if I was able to pass some of my LaTeX love to you and you're curious about it check those links:
 
  - [The Not So Short Introduction To LaTeX](http://linorg.usp.br/CTAN/info/lshort/english/lshort.pdf)
- - [Introdução ao LaTeX -- pt-br](http://www.mat.ufmg.br/~regi/topicos/intlat.pdf)
+ - [Introdução ao LaTeX (portuguese)](http://www.mat.ufmg.br/~regi/topicos/intlat.pdf)
  - You can also learn a lot using Overleaf as an editor and chacking out the code that it shows.
 
   Now just start making your beautiful files.
