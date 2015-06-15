@@ -6,7 +6,7 @@ title: A little about LaTeX
 Since I started working with research, the teachears loved to talk about LaTeX and how it can help us save time writting our papers.
 How it's beautiful and how you can do lots of stuff easily that you can't with Microsoft Word. (Let's not talk about LibreOffice, it wouldn't be a fair fight)
 
-So, if you don't have any ideia what *LaTeX* is, you already have a clue. It's something to write texts. Take a look on what they say on (latex-project)[http://www.latex-project.org/] "LaTeX is a high-quality typesetting system; it includes features designed for the production of technical and scientific documentation that runs on top of Donald E. Knuth's TeX typesetting system"
+So, if you don't have any ideia what *LaTeX* is, you already have a clue. It's something to write texts. Take a look on what they say on [latex-project](http://www.latex-project.org/) "LaTeX is a high-quality typesetting system; it includes features designed for the production of technical and scientific documentation that runs on top of Donald E. Knuth's TeX typesetting system"
 
 Different from LibreOffice that is a WYSWYG (What You See is What You Get), with LaTeX you will write your text and formating configuration in one file, and you don't have to worry with the design of the document (unless you want to create your own, but let's talk about it later) and just worry about what you're going to talk about! The output format normally is a pdf, what is cool because pdf works everywhere. This code below shows a presentation, it's really easy to understand.
 
