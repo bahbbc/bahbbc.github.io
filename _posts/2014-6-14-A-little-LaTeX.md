@@ -28,6 +28,7 @@ The first line says that this document class is beamer... This means that this d
 
 So, now I'll start the presentation. Every slide is a frame and I can write all my text on each. The magic inside Latex is that you can use a theme and don't worry about the design configs anymore :heart: You can also make your own theme and never worry about designing it again! It isn't beautiful? :heart:
 Some other lovely things you can achieve using LaTex:
+
  - Put figures wherever you like;
  - Formulas (oh, the formulas!) will never move, are easy to make and will always be like inside a Calculus book;
  - Your summary will always be right;
