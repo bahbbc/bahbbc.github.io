@@ -24,7 +24,7 @@ I just didn't get how to use emojis on it... I though it would work as github fl
 
 This is the code for the first slide that I was using:
 
-```markdown
+```
  class: center, middle
 
 # Title
@@ -32,14 +32,15 @@ This is the code for the first slide that I was using:
 ![Minion](http://i.giphy.com/1zzTnoZVsZqDK.gif)
 
 
-'''ruby #This is note the right .md syntax, I know.
+```ruby #This is note the right .md syntax, I know.
 def add(a,b)
   a + b
-'''end
+```end
 
 Notice how there is no return statement.
 ```
 That generated this slide: (I just change the font to Pacífico on h1)
+
 ![Sample presentation](/images/slide_sample.png)
 
 Embeding code is just like in github, but take care! Because if you have an style in the slide for center, the code will also be centered and will crash the indentation. :crying_cat_face:
