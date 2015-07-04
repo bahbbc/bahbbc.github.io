@@ -31,8 +31,7 @@ This is the code for the first slide that I was using:
 
 ![Minion](http://i.giphy.com/1zzTnoZVsZqDK.gif)
 
-
-```ruby #This is note the right .md syntax, I know.
+```ruby
 def add(a,b)
   a + b
 ```end
