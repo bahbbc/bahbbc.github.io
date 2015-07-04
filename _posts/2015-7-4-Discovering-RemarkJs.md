@@ -14,22 +14,38 @@ They made a presentation using remark to tell you what is it and why you should 
  - Use offline and display it in browsers;
  - Do a complete presentation in just one file;
 
- The only thing you need is an HTML page. You can get an example in their [repo](https://github.com/gnab/remark) on github. And Easy as that you already have one presentation! This file contains The CSS styling and the JS that imports the lib and makes the command to generate a new slideshow. But you can always keep things organized and separate a folder for the stylesheets and the javascripts.
+The only thing you need is an HTML page. You can get an example in their [repo](https://github.com/gnab/remark) on github. And easy as that you already have one presentation! This file contains The CSS styling and the JS that imports the lib and makes the command to generate a new slideshow. But you can always keep things organized and separate a folder for the stylesheets and the javascripts.
 
- <div style="text-align:center"><img src="/images/awesome.gif" width="300" height="170"></div>
+So after this, I changed some font-style, importing new fonts from google. Added a backgound image for fun, using `background-image: url(image.jpg)` at the beggining of the slide and I already liked what I saw! (working with background images is a little trick... Take care.)
 
- So after this, I changed some font-style, importing new fonts from google. Added a backgound image for fun, using `background-image: url(image.jpg)` at the beggining of the slide and I already liked what I saw! (working with background images is a little trick... Take care.)
+Markdown gives you a lot of power to write a presentation and when you finish your styling is pretty simple finish the slides! Also, when you finish your css you can reuse it on your next presentations! :fireworks:
 
- Markdown gives you a lot of power to write a presentation and when you finish your styling is pretty simple finish the slides! Also, when you finish your css you can reuse it on your next presentations! :fireworks:
+I just didn't get how to use emojis on it... I though it would work as github flavored markdown and it didn't. (Maybe if I explore more I'll find out how to do it.)
 
-<div style="text-align:center"><img src="/images/jake_rainbow.gif" width="300" height="170"></div>
+This is the code for the first slide that I was using:
 
- I just didn't get how to use emojis on it... I though it would work as github flavored markdown and it didn't. (Maybe if I explore more I'll find out how to do it.)
+```markdown
+ class: center, middle
 
- ![Sample presentation](/images/slide_sample.png)
+# Title
 
- Embeding code is just like in github, but take care! Because if you have an style in the slide for center, the code will also be centered and will crash the indentation. :crying_cat_face:
+![Minion](http://i.giphy.com/1zzTnoZVsZqDK.gif)
 
- I really liked it. With a good font and background-color you can make a simple and beautiful presentation, and with markdown this is pretty easy. Looks pretty good for simple presentations and I'll start to use it instead of beamer in this cases. :sparkling_heart:
 
- <div style="text-align:center"><img src="/images/jake_rainbow.gif" width="300" height="170"></div>
+```ruby
+def add(a,b)
+  a + b
+end
+
+Notice how there is no return statement.
+```
+
+```
+That generated this slide: (I just change the font to Pacífico on h1)
+![Sample presentation](/images/slide_sample.png)
+
+Embeding code is just like in github, but take care! Because if you have an style in the slide for center, the code will also be centered and will crash the indentation. :crying_cat_face:
+
+I really liked it. With a good font and background-color you can make a simple and beautiful presentation, and with markdown this is pretty easy. Looks pretty good for simple presentations and I'll start to use it instead of beamer in this cases. :sparkling_heart:
+
+<div style="text-align:center"><img src="/images/awesome.gif" width="300" height="170"></div>
