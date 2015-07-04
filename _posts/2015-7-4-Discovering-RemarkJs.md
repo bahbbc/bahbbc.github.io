@@ -32,14 +32,12 @@ This is the code for the first slide that I was using:
 ![Minion](http://i.giphy.com/1zzTnoZVsZqDK.gif)
 
 
-```ruby
+'''ruby
 def add(a,b)
   a + b
-end
+'''end
 
 Notice how there is no return statement.
-```
-
 ```
 That generated this slide: (I just change the font to Pacífico on h1)
 ![Sample presentation](/images/slide_sample.png)
