@@ -4,9 +4,9 @@ title: Discovering Remark.js
 subtitle: Presentations using Markdown, CSS and HTML
 ---
 
-Almost didn't made it this week! It's been a crazy week with a lot of papers to write. But, here I am, and this time I'll talk about Remark.js. Last post was about LaTeX with an example of a presentation I made using it, and remark.js is another way to do presentations. (:warning: Attention! :warning: LaTeX is more than just for presentations)
+Almost didn't made it this week! It's been a crazy week with a lot of papers to write and RGSoC :heart: (Rails Girls Summer of Code) kickoff. But, here I am, and this time I'll talk about Remark.js. Last post was about LaTeX with an example of a presentation I made using it, and remark.js is another way to do presentations. (:warning: Attention! LaTeX is more than just for presentations)
 
-![Could'n Sleep](/images/sleep.gif)
+<div style="text-align:center"><img src="/images/sleep.gif" width="300" height="170"></div>
 
 You probably already saw a presentation using remark once in your life if you see some presentation videos (like from Ruby Conf) with slides. They have a pretty simple layout and once again the objective is to keep the person is doing a presentation focus on the presentation content and then do some style to keep it good.
 
@@ -52,8 +52,12 @@ I really liked it. :sparkling_heart: With a good font and background-color you c
 
 If you want to know more about it check those liks:
 
-- The github repo already mentioned above;
-- The remark presentation also mentioned :stuck_out_tongue_closed_eyes:
+- The [github repo](https://github.com/gnab/remark) already mentioned above;
+- The [remark presentation](http://gnab.github.io/remark/#1) also mentioned :stuck_out_tongue_closed_eyes:
 - The [wiki](https://github.com/gnab/remark/wiki) (didn't mentioned that!)
 
 Since I just made an introduction to remark, I'll try to make another post when I finished a slide using remark with a step-by-step tutorial, but If I can't, you already have a teste on how easy this is. :wink:
+
+If you are curious about RGSoC :heart: check out in [here](http://railsgirlssummerofcode.org/)
+I'm really excited because I am coaching the Alpha Ruby team \o/
+Check out what we are doing [here](https://teams.railsgirlssummerofcode.org/teams/83)
