@@ -56,8 +56,8 @@ If you want to know more about it check those liks:
 - The [remark presentation](http://gnab.github.io/remark/#1) also mentioned :stuck_out_tongue_closed_eyes:
 - The [wiki](https://github.com/gnab/remark/wiki) (didn't mentioned that!)
 
-Since I just made an introduction to remark, I'll try to make another post when I finished a slide using remark with a step-by-step tutorial, but If I can't, you already have a teste on how easy this is. :wink:
+Since I just made an introduction to remark, I'll try to make another post when I finished a slide using remark with a step-by-step tutorial, but If I can't, you already have a taste on how easy this is. :wink:
 
-If you are curious about RGSoC :heart: check out in [here](http://railsgirlssummerofcode.org/)
-I'm really excited because I am coaching the Alpha Ruby team \o/
-Check out what we are doing [here](https://teams.railsgirlssummerofcode.org/teams/83)
+If you are curious about RGSoC :heart: check out in [here](http://railsgirlssummerofcode.org/).
+
+I'm really excited because I am coaching the [Alpha Ruby team](https://teams.railsgirlssummerofcode.org/teams/83) \o/
