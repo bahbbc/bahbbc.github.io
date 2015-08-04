@@ -14,7 +14,7 @@ The think is: I started to improove my Sublime. For those who aren't familiar, [
 So, you can improve Sublime installing packages on it. The first thing to do is install [Package Controll](https://packagecontrol.io/installation). Is pretty simple and easy. I already used [All Autocomplete](https://packagecontrol.io/packages/All%20Autocomplete), [GitGutter](https://packagecontrol.io/packages/GitGutter) and the [Rails Casts Colour](https://packagecontrol.io/packages/RailsCasts%20Colour%20Scheme).
 I also use a nice settings config to help me. And then, I read Avdi Grimm's post and those things didn't seen enough. I wanted to add something to prevent me to add inconsistent style to the code. Something that helps me findind that damn wrong comma that is broking everything. I wanted rubocop on Sublime.
 
-<div style="text-align:center"><img src="/images/police.gif" width="300" height="170"></div>
+<div style="text-align:center"><img src="/images/bug-dance.gif" width="300" height="170"></div>
 
 [Rubocop](https://github.com/bbatsov/rubocop) is a gem that analyses your code according to the community [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide). After installation you can run it in your command line and voilà! It will show all the 'Offenses' you have commited.
 He is pretty annoying. If you are used to program like there is no tomorrow, he will stop you (or, at least piss you off pointing your offenses). It's easy to configure a new yml file that changes it's normal behaviour (at least is what the documentation says).
@@ -26,6 +26,8 @@ According to wikipédia:
 > The term is now applied generically to tools that flag suspicious usage in software written in any computer language. The term lint-like behavior is sometimes applied to the process of flagging suspicious language usage.
 > Lint-like tools generally perform static analysis of source code.
 
+<div style="text-align:center"><img src="/images/police.gif" width="300" height="170"></div>
+
 Just what I wanted :relaxed: but, it does not work alone. From the docs:
 
 > SublimeLinter does not do the linting itself; it acts as a host for linting plugins.
@@ -35,7 +37,7 @@ It supports many languanges, you can install as much linting plugins as you want
 
 "Programming is hard. We are bound to make mistakes. The big advantage of using SublimeLinter is that your code can be linted as you type (before saving your changes) and any errors are highlighted immediately, which is considerably easier than saving the file, switching to a terminal, running a linter, reading through a list of errors, then switching back to Sublime Text to locate the errors!"
 
-<div style="text-align:center"><img src="/images/omg.gif" width="300" height="170"></div>
+<div style="text-align:center"><img src="/images/omg.gif" width="300" height="250"></div>
 
 If you use eclipse you are judding me now... I know... But I don't care.(that's one thing the post metions. Don't be lazy and read it.)
 
