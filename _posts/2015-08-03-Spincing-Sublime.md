@@ -1,26 +1,26 @@
 ---
 layout: post
-title: Spicing Sublime!
+title: Melhorando o Sublime!
 ---
 
-It's been a while... Sorry about that. Too many work to do :pensive:... I'll try to make two posts this week to compensate. (since I broke my promise) They will be quick posts (with some of the information I gathered those weeks)
+Já faz um tempinho... Desculpem-me por isso. Muito trabalho para fazer... :pensive: Vou tentar fazer 2 posts para compensar. (Já que quebrei minha promessa inicial) Eles serão posts rápidos (com alguma coisinha que aprendi durante essas semanas)
 
 <div style="text-align:center"><img src="/images/guilty_dog.gif" width="300" height="170"></div>
 
-Last week (actually, it's been two weeks, I guess) I was reading a [post](http://devblog.avdi.org/2015/07/08/ruby-is-defined-by-terrible-tools/) from Avdi Grimm about ruby being defined by terrible tools.
-I won't discuss the blog post, but it made me think on how much I suffer using only sublime to program. I installed RubyMine (academic license), but I have some agility with Sublime and maybe I like to suffer, so I am having some trouble to change.
-The thing is: I started to improve my Sublime. For those who aren't familiar, [Sublime](http://www.sublimetext.com/) is a text editor for code. There are lovers and haters and I still like it.
+Semana passada (na verdade, fazem duas semanas, eu acho) Eu estava lendo um [post](http://devblog.avdi.org/2015/07/08/ruby-is-defined-by-terrible-tools/) do Avdi Grimm, sobre as ferramentas que são usadas para programar em Ruby.
 
-So, you can improve Sublime installing packages on it. The first thing to do is install [Package Control](https://packagecontrol.io/installation). Is pretty simple and easy. I already used [All Autocomplete](https://packagecontrol.io/packages/All%20Autocomplete), [GitGutter](https://packagecontrol.io/packages/GitGutter) and the [Rails Casts Colour](https://packagecontrol.io/packages/RailsCasts%20Colour%20Scheme).
-I also use a nice settings config to help me. And then, I read Avdi Grimm's post and those things didn't seem enough. I wanted to add something to prevent me from adding inconsistent style to the code. Something that helps me finding that damn wrong comma that is breaking everything. I wanted rubocop on Sublime.
+Não quero discutir o post, mas ele me fez ficar pensando no quanto eu sofro usando o Sublime para programar. Instalei o RUbyMine (a licensa academica), mas eu não tive a mesma agilidade que eu tenho com o Sublime e eu estou com vários problemas para fazer a troca.
+
+No fim o que eu fiz foi: comecei a melhorar um pouco meu Sublime. Para aqueles que não conhece o [Sublime](http://www.sublimetext.com/) é um editor de texto para 'codar'. Existem os amantes e os que odeiam e eu ainda gosto dele. E ele é grátis, só fica te enchendo o saco para comprar a licensa de vez em quando.
+
+Você pode 'tunar' o Sublime instalando pacotes nele. A primeira coisa a fazer é instalar o [Package Control](https://packagecontrol.io/installation). É bem simples e fácinho. Eu uso esses pacotes: [All Autocomplete](https://packagecontrol.io/packages/All%20Autocomplete), [GitGutter](https://packagecontrol.io/packages/GitGutter) and the [Rails Casts Colour](https://packagecontrol.io/packages/RailsCasts%20Colour%20Scheme). Eu também uso umas configuração muito legais para me ajudar. E aí eu li o post do Avdi Grimm e só isso não pareceu o suficiente. Eu queria algo que me impedisse de adicionar um estilo fora do padrão da comunidade no meu código. Algo que me ajudasse a achar aquela maldita vírgula que eu escrevi a mais e quebrava todo o meu código. Descobri depois que eu queria a ajuda do rubocop no meu Sublime.
 
 <div style="text-align:center"><img src="/images/bug-dance.gif" width="300" height="170"></div>
 
-[Rubocop](https://github.com/bbatsov/rubocop) is a gem that analyses your code according to the community [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide). After installation you can run it in your command line and voilà! It will show all the 'Offenses' you have commited.
-He is pretty annoying. If you are used to program like there is no tomorrow, he will stop you (or, at least piss you off pointing your offenses). It's easy to configure a new yml file that changes it's normal behaviour (at least is what the documentation says).
+[Rubocop](https://github.com/bbatsov/rubocop) é ua gem que analisa o seu código  de acordo com o [Ruby Style  Guide](https://github.com/bbatsov/ruby-style-guide). Depois da instalação da gem você pode executá-la através do seu terminal e voilà! Ele mostrará todas as 'ofensas' que você cometeu ao programar.
+Ele é beeem chato. Se você estava acostumado a programar como se não houvesse amanhã, ele vai te impedir (ou pelo menos te atormentar mostrando os seus erros). É bem fácil configurar um novo arquivo `yml` para alterar o seu comportamento normal (afinal um número maior de caracteres sempre é bem-vindo).
 
-I didn't want to keep running this at the console. It could be nice to do it together with RSpec, but no, thanks. So, I discovered [Sublime Linter](https://packagecontrol.io/packages/SublimeLinter). I didn't know what the world 'linter' was.
-According to wikipédia:
+Eu não queria ficar rodando esse comando toda vez no console. Poderia até ser feito junto do RSpec, mas não... Então eu descobri o [Sublime Linter](https://packagecontrol.io/packages/SublimeLinter). Eu não sabia o que a palavra 'linter' significava e de acordo com a wikipédia:
 
 > In computer programming, lint was the name originally given to a particular program that flagged some suspicious and non-portable constructs (likely to be bugs) in C language source code.
 > The term is now applied generically to tools that flag suspicious usage in software written in any computer language. The term lint-like behavior is sometimes applied to the process of flagging suspicious language usage.
@@ -28,21 +28,22 @@ According to wikipédia:
 
 <div style="text-align:center"><img src="/images/police.gif" width="300" height="170"></div>
 
-Just what I wanted :relaxed: but, it does not work alone. From the docs:
+Bem o que eu queria :relaxed: mas, ele não funciona sozinho. Da documentação:
 
 > SublimeLinter does not do the linting itself; it acts as a host for linting plugins.
 > The linting plugins themselves usually do not perform linting either; they just act as a bridge between the code you type in Sublime Text and the actual linter.
 
-It supports many languages, you can install as much linting plugins as you want! Take a look on what they say about using a linter:
+O Linter pode ser usado para várias linguagens, e você pode instalar quantos plugins de linter quiser!
 
-"Programming is hard. We are bound to make mistakes. The big advantage of using SublimeLinter is that your code can be linted as you type (before saving your changes) and any errors are highlighted immediately, which is considerably easier than saving the file, switching to a terminal, running a linter, reading through a list of errors, then switching back to Sublime Text to locate the errors!"
+"Programar é dificil. Estamos sujeitos a cometer erros. A grande vantagem de se usar o SublimeLinter é que o seu código será 'linted' enquanto você digita (antes de salvar) e qualquer erro será destacado imediatamente, o que é muito mais fácil do que salvar o arquivo, mudar para um terminal, rodar o linter, ler a lista de erros, e depois voltar para o Sublime para encontrar os erros nos arquivos!"
 
 <div style="text-align:center"><img src="/images/omg.gif" width="300" height="250"></div>
 
-If you use eclipse you are judging me now... I know... But I don't care.(that's one thing the post mentions. Don't be lazy and read it.)
+Se você usa o eclipse ou algum outro editor mais poderoso, você está me julgando agora... Eu sei... Mas eu não ligo. É uma das coisas que o post menciona, não seja preguiçoso e o leia.
 
-Now let's add [SublimeLinter-ruby](https://packagecontrol.io/packages/SublimeLinter-ruby) and [SublimeLinter-rubocop](https://packagecontrol.io/packages/SublimeLinter-rubocop) to see the magic happening. You will just need to configure the ruby path in Preferences -> Package Settings -> Sublime Linter -> Settings - Default.
-This is my example:
+Agora, vamos adicionar o [SublimeLinter-ruby](https://packagecontrol.io/packages/SublimeLinter-ruby) e o [SublimeLinter-rubocop](https://packagecontrol.io/packages/SublimeLinter-rubocop) para ver a magia acontecer. Você vai precisar configurar o ruby path em Preferences -> Package Settings -> Sublime Linter -> Settings - Default.
+
+Aqui vai o meu exemplo:
 
 ```
 "paths": {
@@ -52,9 +53,6 @@ This is my example:
         },
 ```
 
-Also you will need to install the rubocop gem. You can install in the folder that all your projects are.Now, get ready to see some 'offenses' in yellow and when you broke anything in red. The bad thing is that I couldn't make the personalized .yml work when I installed the gem in my workspace folder. :expressionless:
-When I do, I'll edit this post.
+Você também vai precisar instalar a gem do rubocop. Você pode instalar na pasta onde ficam todos os seus projetos. Agora esteja pronto para ver as 'ofensas' que você cometeu no código em amarelo e códigos 'quebrados' em vermelho. 
 
 ![Image of rubocop offenses](/images/rubocop-linter.png)
-
-
